@@ -3,7 +3,10 @@ if not present then
    return
 end
 
-feline.setup({
+vim.opt.termguicolors = true
+
+feline.setup(
 	-- TODO correção bug termguicolor
 	-- TODO tema gruvbox
-})
+)
+
